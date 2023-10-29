@@ -11,24 +11,24 @@ body {
   overflow-x: hidden;
 }
 
-.hero {
+header {
   padding: 2rem 7rem;
   min-height: 100vh;
 }
 
-.hero nav {
+header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-ul li {
+header ul li {
   list-style: none;
   display: inline-block;
   margin-left: 2rem;
 }
 
-ul li a {
+.hero nav ul li a {
   text-decoration: none;
   color: rgb(37, 43, 70);
   font-size: 0.7rem;
@@ -38,12 +38,12 @@ ul li a {
   cursor: pointer;
 }
 
-li a:hover,
-li a:focus {
+.hero nav ul  li a:hover,
+.hero nav ul  li a:focus {
   color: rgb(250, 87, 87);
 }
 
-ul li:nth-child(4) a {
+.hero nav ul li:nth-child(4) a {
   padding: 0.55rem 1.5rem;
   background: rgb(250, 87, 87);
   color: rgb(255, 255, 255);
@@ -52,12 +52,12 @@ ul li:nth-child(4) a {
   box-shadow: 0 4px 0.3rem 0 rgba(0, 0, 0, 0.247);
 }
 
-ul li:nth-child(4) a:hover {
+.hero nav  ul li:nth-child(4) a:hover {
   background: transparent;
   color: rgb(250, 87, 87);
 }
 
-nav .mobile-menu {
+.hero nav .mobile-menu {
   display: none;
 }
 
@@ -216,7 +216,7 @@ nav .mobile-menu {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 70px;
+  /* margin-left: 70px; */
 }
 
 .features-tab .left-col::after {
@@ -854,14 +854,19 @@ footer nav .social-links li a img {
     position: relative;
   }
 
+  .mobile-navigation nav ul li{
+    border-top: 1px solid rgb(128, 127, 127);
+    padding-top: 1rem;
+  }
+
   .mobile-navigation nav ul:nth-child(1) {
-    margin-top: 6rem;
+    margin-top: 7rem;
     text-align: center;
   }
 
   .mobile-navigation nav ul:nth-child(1) li {
     list-style: none;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .mobile-navigation nav ul:nth-child(1) li a {
