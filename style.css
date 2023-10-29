@@ -552,17 +552,7 @@ footer nav .social-links li a img {
   filter: invert(0);
 }
 
-footer .attribution {
-  color: rgb(255, 255, 255);
-  font-size: 1rem;
-  margin-top: 2rem;
-  text-align: center;
-}
 
-footer .attribution a {
-  text-decoration: none;
-  color: rgb(145, 148, 161);
-}
 
 @media (max-width: 991px) {
   .hero {
@@ -844,13 +834,6 @@ footer .attribution a {
     margin: 0 1rem;
   }
 
-  footer .attribution {
-    font-size: 0.8rem;
-  }
-
-  footer .attribution a {
-    font-size: 0.8rem;
-  }
 
   .mobile-navigation {
     display: block;
@@ -986,13 +969,6 @@ footer .attribution a {
     left: 1%;
   }
 
-  footer .attribution {
-    font-size: 0.7rem;
-  }
-
-  footer .attribution a {
-    font-size: 0.7rem;
-  }
 }
 
 @media (max-width: 280px) {
