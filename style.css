@@ -224,7 +224,7 @@ header ul li {
   position: absolute;
   left: -10rem;
   bottom: -4rem;
-  width: 120%;
+  width: 100%;
   height: 95%;
   background: rgb(83, 104, 223);
   z-index: -1;
@@ -595,17 +595,19 @@ footer nav .social-links li a img {
   }
 
   .hero .hero-row .right-col img {
-    width: 100%;
+    width: 80%;
   }
 
   .hero .hero-row .right-col::after {
     right: -4rem;
-    bottom: 0rem;
+    bottom: -2rem;
+    width: 70%;
   }
 
   .hero .hero-row .left-col .left-col-text h1 {
     font-size: 1.5rem;
     line-height: 1.4;
+    margin-top: 2rem;
   }
 
   .hero .hero-row .left-col .left-col-text .hero-links {
@@ -665,13 +667,13 @@ footer nav .social-links li a img {
   }
 
   .features .features-tab .left-col img {
-    width: 100%;
+    width: 75%;
   }
 
   .features .features-tab .left-col::after {
     left: -6rem;
-    bottom: -2rem;
-    width: 130%;
+    bottom: -3rem;
+    width: 80%;
   }
 
   .features .features-tab .right-col {
@@ -864,30 +866,30 @@ footer nav .social-links li a img {
     text-align: center;
   }
 
-  .mobile-navigation nav ul:nth-child(1) li {
+  .mobile-navigation nav ul li {
     list-style: none;
     margin-bottom: 1rem;
   }
 
-  .mobile-navigation nav ul:nth-child(1) li a {
+  .mobile-navigation nav ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-size: 1.2rem;
   }
 
-  .mobile-navigation nav ul:nth-child(1) li:nth-child(4) a {
+  .mobile-navigation nav ul li:nth-child(4) a {
     padding: 0.6rem 5.5rem;
     border: 1px solid rgb(255, 255, 255);
   }
 
-  .mobile-navigation nav ul:nth-child(2) {
+  .mobile-navigation nav div {
     margin-top: 6rem;
     display: flex;
     align-items: center;
   }
 
-  .mobile-navigation nav ul:nth-child(2) li {
+  .mobile-navigation div img {
     display: inline-block;
     margin: 0 1rem;
   }
@@ -976,53 +978,15 @@ footer nav .social-links li a img {
 
 }
 
-@media (max-width: 280px) {
-  .hero nav a img {
-    width: 6rem;
-  }
-
-  .hero nav .mobile-menu {
-    width: 1rem;
-  }
-
-  .mobile-navigation nav ul:nth-child(1) li a {
-    font-size: 1rem;
-  }
-
-  .hero .hero-row .left-col .left-col-text .hero-links a {
-    padding: 0.4rem;
-    font-size: 0.5rem;
-  }
-
-  .features .features-controller p {
-    font-size: 0.7rem;
-  }
-
-  .features .features-tab {
-    padding: 0;
-  }
-
-  .faq .banner li .text {
-    font-size: 0.55rem;
-  }
-
-  .faq .banner li .drop-down-text p {
-    font-size: 0.65rem;
-  }
-
-  .contact form input {
-    padding: 0.7rem 3rem 0.7rem 1rem;
-  }
-
-  .contact form button {
-    padding: 0.7rem 3rem;
-  }
-
-  .contact h4 {
-    font-size: 0.9rem;
-  }
-
-  .contact {
-    color: rgb(250, 87, 87);
-  }
+@media  (min-width:460px) {
+    .hero .hero-row .right-col img {
+        width: 90%;
+    }
 }
+
+@media (max-width:1200px) {
+    .features-tab .left-col img {
+        width: 95%;
+    }
+}
+
