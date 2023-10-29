@@ -68,19 +68,19 @@ nav .mobile-menu {
   margin-top: 5rem;
 }
 
-.left-col,
-.right-col {
+.hero-row .left-col,
+.hero-row .right-col {
   flex-basis: 50%;
 }
 
-.left-col-text h1 {
+.hero-row .left-col-text h1 {
   font-size: 2.5rem;
   color: rgb(37, 43, 70);
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-.left-col-text p {
+.hero-row .left-col-text p {
   font-size: 0.9rem;
   color: rgb(145, 148, 161);
   line-height: 1.5;
@@ -125,14 +125,14 @@ nav .mobile-menu {
   border: 2px solid rgb(37, 43, 70);
 }
 
-.right-col {
+.hero .right-col {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   position: relative;
 }
 
-.right-col::after {
+.hero .right-col::after {
   content: "";
   position: absolute;
   right: -10rem;
